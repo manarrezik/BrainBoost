@@ -1,0 +1,60 @@
+{ 
+      question: "L'élément HTML qui contient le titre de la page est la balise ...", 
+      options: ["TITLE", "HEADER", "BODY"], 
+      answer: "TITLE",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "Why did the title tag go to school? To learn to be the head of the page!",
+      incorrectJoke: "What do you call a function that’s used to fix bugs? A debugger!"
+    },
+    { 
+      question: "La balise utilisée pour créer une liste non ordonnée en HTML est ...", 
+      options: ["UL", "OL", "LI"], 
+      answer: "UL",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "What’s a coder’s favorite type of music? Algo-rhythm!",
+      incorrectJoke: "I tried to start a band with HTML, but we couldn’t find a good structure."
+    },
+    { 
+      question: "En CSS, pour modifier la couleur de fond d'une page, on utilise la propriété ...", 
+      options: ["BACKGROUND-COLOR", "COLOR", "BACKGROUND"], 
+      answer: "BACKGROUND-COLOR",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "CSS is like a box of chocolates; you never know what you’re going to get, but you’re still trying to make it fit.",
+      incorrectJoke: "What do you call it when your CSS isn’t working? A style disaster!"
+    },
+    { 
+      question: "La fonction JavaScript utilisée pour afficher une alerte est ...", 
+      options: ["ALERT", "PROMPT", "CONFIRM"], 
+      answer: "ALERT",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "I used to be a JavaScript developer, but now I just want to alert people about their bad code!",
+      incorrectJoke: "Why don't programmers like nature? It has too many bugs!"
+    },
+    { 
+      question: "En JavaScript, les objets sont des collections de paires ...", 
+      options: ["CLÉ-VALUE", "KEY-VALUE", "OBJECT-VALUE"], 
+      answer: "CLÉ-VALUE",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "Why do objects in JavaScript make great friends? They always keep their key-value pair close.",
+      incorrectJoke: "Why did the object break up with the array? It just couldn’t handle the relationship!"
+    },
+    { 
+      question: "Dans CSS, pour centrer un élément en utilisant Flexbox, on utilise la propriété ...", 
+      options: ["JUSTIFY-CONTENT", "ALIGN-CENTER", "CENTER"], 
+      answer: "JUSTIFY-CONTENT",
+      correctMeme: "https://i.imgur.com/XO9OQJ0.jpg",  // Success meme URL
+      incorrectMeme: "https://i.imgur.com/kbsC5s7.jpg", // Fail meme URL
+
+      correctJoke: "How does a web developer fix a broken webpage? By justifying content.",
+      incorrectJoke: "Why did the CSS selector refuse to go to the party? It couldn’t find the class."
+    }
