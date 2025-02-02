@@ -3,30 +3,30 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>coding game</title>
+    <title>quiz game</title>
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
 </head>
 
 <body>
+    <h1 class="title">BrainBoost!</h1>
+    <div class="game-container">
+        <div class="box">
+            <div class="question" id="question"></div>
+        </div>
 
-    <div class="box">
-        <div class="question" id="question"></div>
-    </div>
+        <ul class="options" id="options"></ul>
 
+        <div class="feedback" id="feedback"></div>
 
-    <ul class="options" id="options"></ul>
+       
+        <div id="score-display">Score: 0 / 21</div>  </div>
+        <div class="feedback" id="feedback"></div>
 
-    <div class="feedback" id="feedback"></div>
+        <div class="timer-container">  <canvas id="timerCanvas" width="150" height="150"></canvas>
+            <div id="timerText">9</div>
+        </div>
 
-    <!-- <div class="meme-container">
-        <img id="meme" src="" alt="Meme" width="300" height="300" />
-    </div> -->
-
-    <div>
-    <canvas id="timerCanvas" width="150" height="150"></canvas>
-    <div id="timerText">4</div>
-</div>
 </body>
 
 </html>

@@ -2,12 +2,13 @@
     box-sizing: border-box;
     font-family: system-ui, sans-serif;
   }
+
   
   body {
     background-color:rgb(243, 233, 216);
     font-weight: bold;
-    margin: 0;
-    padding: 20px;
+    margin: 0px;
+    padding: 50px;
     max-width: 400px;
     margin: 0 auto;
     min-height: 100vh;
@@ -15,15 +16,17 @@
   .question {
     font-size: 24px;
     margin-bottom: 20px;
-    color: black;
+    color: rgb(17, 3, 72);
   }
   .box {
     background-color:#C4D9FF ;
-    margin: 5px 0;
-    padding:10px ;
+    margin: 5px 0px;
+    padding:15px ;
     border-radius: 30px;
     cursor: pointer;
     gap: 0.5;
+
+    
   }
   .options {
     list-style: none;
@@ -54,13 +57,26 @@
   
   canvas {
     position: absolute;
-    padding: 16%;
+    padding: 2% 5%;
     
 }
 #timerText {
     font-size: 48px;
     font-weight: bold;
-    color: black ; /* Green color */
+    color: rgb(17, 3, 72) ; 
     position: absolute;
-    padding: 85px 37% ;
+    padding: 65px 9% ;
+}
+#score-display {
+  font-size: 1.2em;
+  margin-top: 20px;
+  font-weight: bold;
+  padding: 10px 79px;
+  background-color:#C4D9FF ;
+  color: rgb(17, 3, 72) ;
+
+}
+.title{
+  padding: 10px 50px;
+  margin: 0.5px 2px;
 }
