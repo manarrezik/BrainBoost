@@ -167,7 +167,7 @@ let currentQuestionIndex = 0;
 let countdown = 9;
 let totalTime = countdown;
 let timerInterval;
-let score = 0; // Initialize score variable
+let score = 0; 
 
 const canvas = document.getElementById('timerCanvas');
 const ctx = canvas.getContext('2d');
